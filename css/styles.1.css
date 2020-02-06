@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: #0B090A;
+    margin: 0;
+    padding: 0;
+}
+
+header.banner{
+    position: fixed;
+    top: 0;
+    background-color: #0B090A;
+    
+    width: 100%;
+    z-index: 100;
+    height: auto;
+    padding: 10px;
+    
+}
+
+header.banner h1{
+    color: white;
+    position: relative;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    z-index: 20;
+    margin: 0;
+}
+
+.sub-text{
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1.9px;
+    margin: 0;
+    position: absolute;
+    left: 75px;
+    top: 45px;
+    z-index: 30;
+    border-top: 1px solid white;
+    padding-top: 3px;
+}
+
+.sub-text:before{
+    content: "";
+	width: 110px;
+	display: block;
+	overflow: hidden;
+}
+
+/**
+.scalable{
+    width:  50px;
+    max-width: 60px;
+    display: inline-block;
+}
+**/
+
+header.banner img{
+    vertical-align: top;
+    display: inline-block;
+    width:  50px;
+}
+
+/** Navigation **/
+
+header.banner a{
+    display: block;
+}
+
+header.banner nav{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    z-index: 100;
+}
+
+header.banner ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+}
+
+
+header.banner li a{
+    color: white;
+    padding: 0;
+    padding-bottom: 3px; 
+    margin: 0 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.is-current{
+    border-bottom: 2px white solid;
+    font-size: 102%;
+    font-weight: bolder;
+}
+
+
+
+/** End of Header and Navigation **/
+
+.container{
+    margin: 0 auto;
+    margin-top: 130px;
+	width: 85%;
+	max-width: 960px;
+}
+
+.container-title{
+    position: relative;
+    width: auto;
+    height: 300px;
+    
+    margin: 10px 115px 0px 115px;
+}
+
+
+h2.person-name{
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    z-index: 50;
+    margin: 0;
+
+    text-shadow: 4px 3px 0px rgb(255, 255, 255);
+}
+
+#ive-sub-title{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    left: 0px;
+    top: 160px;
+    z-index: 50;
+
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+#gates-sub-title{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    left: 6px;
+    top: 160px;
+    z-index: 50;
+
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+#musk-sub-title{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    left: 6px;
+    top: 160px;
+    z-index: 50;
+
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+#bezos-sub-title{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    left: 0px;
+    top: 160px;
+    z-index: 50;
+
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+#ive-img{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 0;
+}
+
+#gates-img{
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    z-index: 0;
+}
+
+#musk-img{
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    z-index: 0;
+}
+
+#bezos-img{
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    z-index: 0;
+}
+
+
+h3{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px 0px 20px 0px;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+section, .main-header, .main-article, .aside-table, .aside-list, footer, .list{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #FBFAF8;
+    position: relative;
+
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.65);
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.65);
+}
+
+    
+main article:hover h3 {
+    color: orange;
+}
+
+section:hover h3, .aside-list:hover h3, .aside-table:hover h3, footer:hover h3, #homepage-title:hover{
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+    
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.slideshow{
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    
+}
+
+.slideshow img{
+    width: 35%;
+    margin: 0px auto;
+}
+
+#homepage-title{
+    text-align: center;
+    margin: 0;
+}
+
+.excerpt{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3%;
+}
+
+.excerpt-figure{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #FBFAF8;
+
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.65);
+    box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.65);
+
+    min-width: 230px;
+    max-width: 260px;
+}
+
+.underline{
+    display: inline;
+    padding-bottom: 8px;
+    border-bottom: 4px #0B090A solid;
+}
+
+.excerpt p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.excerpt a{
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.excerpt a:hover{
+    color: orange;
+    font-size: 102%;
+}
+
+.head-img{
+    width: 100%;
+    border-radius: 20px;    
+}
+
+/** End of Homepage Styles **/
+
+.text-separator{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.first-article .underline{
+    border-bottom: 4px #0B090A solid;
+    width: 140px;
+}
+
+.first-article h3{
+    margin: 0;
+}
+
+.first-article p{
+    padding: 0 50px 10px 50px;
+}
+
+.end-paragraph{
+    border-bottom: 4px #0B090A solid;
+    width: 140px;
+    position: absolute;
+    right: 20px;
+}
+
+.side-to-side{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0%;
+}
+
+.right-separator{
+    border-right: 1.5px #0B090A solid;
+    padding-right: 20px;
+}
+
+.left-separator{
+    padding-left: 20px;
+}
+
+.main-header{
+    font-size: 60px;
+    letter-spacing: 8px;
+    display: inline-block;
+    padding: 20px 25px 20px 25px;
+    margin-top: 80px;
+}
+
+.header-wrapper{
+    position: relative;
+}
+
+#apple-logo{
+    position: absolute;
+    left: 570px;
+    top: 10px;
+}
+
+#microsoft-logo{
+    position: absolute;
+    left: 450px;
+    top: 8px;
+}
+
+#musk-logo{
+    position: absolute;
+    left: 500px;
+    top: -23px;
+}
+
+#amazon-logo{
+    position: absolute;
+    left: 310px;
+    top: 27px;
+}
+
+.img-float{
+    float: right;
+    margin: 10px 0px 20px 10px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.img-float:hover{
+    color: orange;
+    font-size: 18px;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 58.5% 38.5%;
+    grid-gap: 3%;
+}
+
+aside .right-separator.extend-border{
+    padding-bottom: 40px;
+    margin-bottom: 15px; 
+}
+
+th{
+    padding-bottom: 10px;
+}
+
+td{
+    text-align: center;
+    padding: 10px 2px 10px 2px;
+    border: 1px black solid;
+}
+
+.aside-list li{
+    padding-top: 12px;
+    list-style-type: decimal;
+}
+
+footer h3{
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+    color: #0B090A;
+}
+
+footer a:hover{
+    color: orange;
+    font-size: 101%;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+footer li{
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+footer li:last-child{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+footer.universal{
+    padding: 10px;
+}
+
+footer.universal p{
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 0px;
+    margin: 0;
+}
+footer.universal p:first-child{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+
+/** Mobile Design **/
+
+@media (max-width: 840px){
+    .container-title{
+        display: block;
+    }
+}
